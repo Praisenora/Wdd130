@@ -1,0 +1,68 @@
+@import url(https://fonts.goggleapis.com/css?family=roboto&family=opensan&display=swap):
+
+:root{
+  --primary-color:#CCDEAE;
+  --secondary-color:#E9EDC9;
+  --text-color:#333;
+}
+
+body{
+  font-family: roboto,san-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+container{
+  max-width: 1200px; 
+  margin:0 auto;
+  padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--primary-color);
+}
+p{
+  color: var(--primary_color);
+}
+a{
+   colour: var(--primary_color);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--secondary_color);
+}
+footer a{
+  border: none;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    max-height: 400px; /* Adjust the max height as needed */
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Adjust text color as needed */
+}
+
+.overlay h1 {
+    font-size: 2.5em; /* Adjust font size as needed */
+    margin-bottom: 10px;
+}
+
+.overlay article {
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto;
+}
