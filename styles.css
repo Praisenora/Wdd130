@@ -5,7 +5,7 @@
 }
 body{
    font-size: 16px;
-   font-family:
+   font-family: roboto, arial, san-serif;
 }
 
 
@@ -39,7 +39,9 @@ main img{
           
 }
 
-p{ padding: 0,}
+p{
+   margin: 1rem;
+}
 
 footer{
          margin-top:15px;
