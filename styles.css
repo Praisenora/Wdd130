@@ -49,10 +49,30 @@ footer{
           text-aling: center;
 }
 
-     header,footer{
+     header, .grid ,footer{
         max-width: 840px;
         margin: 0 auto;
      }
+nav{
+   background-color: steelblue;
+   padding:1rem;
+   display: flex;
+   justify-content:space-evenly;
+   aling-item: center;
+}
+
+nav a{
+   display:block;
+   padding: 0.5rem;
+   tex-decoration:none;
+   font-size: 1.2rem;
+   font-weight: 700;
+   color: #fff; 
+}
+
+
+
+
 /* Class Selector*/
 .box{
       margin: 1rem;
@@ -67,10 +87,21 @@ h1{
    border-bottom:1px solid #000;
 }
 
+.grid{
+   display: grid;
+   align-item:center;
+}
+main{
+   grid-column:2/3
+   margin:1rem;
+}
 
-
-
-
+aside{
+   width: 20rem;
+   position: relative;
+   grid-column:1/2;
+   grid-row:1/2;
+}
 
 
 
