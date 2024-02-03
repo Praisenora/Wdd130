@@ -48,6 +48,11 @@ footer{
           border-top:1px solid #000;
           text-aling: center;
 }
+
+     header,footer{
+        max-width: 840px;
+        margin: 0 auto;
+     }
 /* Class Selector*/
 .box{
       margin: 1rem;
@@ -57,3 +62,17 @@ footer{
       colour: #000;
       
 }
+
+h1{
+   border-bottom:1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
