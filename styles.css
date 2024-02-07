@@ -58,7 +58,7 @@ nav{
    padding:1rem;
    display: flex;
    justify-content:space-evenly;
-   align-item: center;
+   align-items: center;
 }
 
 nav a{
@@ -78,9 +78,8 @@ nav a{
       margin: 1rem;
       border: 1px solid rgba(0,0,0,.1);
       padding: 1rem;
-      background-colour:#ddd:colour: #000;
-      
-}
+      background-color:#ddd:color: #000;
+      }
 
 h1{
    border-bottom:1px solid #000;
@@ -88,7 +87,7 @@ h1{
 
 .grid{
    display: grid;
-   align-item:center;
+   align-items:center;
 }
 main{
    grid-column:2/3
